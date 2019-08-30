@@ -1,0 +1,17 @@
+Budget,BRD - Functional,STTM's - Technical,Datawarehouse 1,Datawarehouse 2,Datawarehouse 3,Data Visualization 1,Data Visualization 2,Data Visualization 3,Project Duration,Testing Schedule,Test Strategy & Design - Static,Test Strategy & Design - Dynamic,Functional Testing,Manual Testing,Automation Testing,Agile testing,Test Coverage,Cost,Speed,Quality
+Fixed Bid- < 100K,Yes,Yes,Legacy,Legacy,Legacy,SAP EPM,SAP EPM,SAP EPM,0 to 6 Months,0 to 6 Months,Static-Walk through ,Dynamic-Spectification Based-Boundary Value Analysis,System Testing,System Integration Testing,Data Comparator,Exploratory Testing,Basic Coverage-Function Coverage,0.00 to 0.49,0.00 to 0.49,0.00 to 0.49
+Fixed Bid-100K to 250K,No,No,AWS Cloud,AWS Cloud,AWS Cloud,Tableau,Tableau,Tableau,6 to 12 Months,6 to 12 Months,Static-Informal review ,Dynamic-Spectification Based-Equivealence Paritioning,None,System Testing,Load Runner,None,Basic Coverage-Statement Coverage,0.50 to 0.59,0.50 to 0.59,0.50 to 0.59
+Fixed Bid-250K to 500K,,,DB2,DB2,DB2,BO,BO,BO,12 to 24 Months,12 to 24 Months,Static-Technical review,Dynamic-Spectification Based-Decision Table Testing,,None,Data Comparator,,Basic Coverage-Branch Coverage,0.60 to 0.69,0.60 to 0.69,0.60 to 0.69
+Fixed Bid-500K to 1 Million,,,SQL Server 2014,SQL Server 2014,SQL Server 2014,SAP BO,SAP BO,SAP BO,,,Static-Audit  ,Dynamic-Spectification Based-Static Transition Diagram,,,UFT,,Basic Coverage-Condition Coverage,0.70 to 0.89,0.70 to 0.89,0.70 to 0.89
+Fixed Bid-1 million to 5 Million,,,Teradata,Teradata,Teradata,ETL Reporting,ETL Reporting,ETL Reporting,,,Static-Inspection  ,Dynamic-Spectification Based-Use Case Testing,,,Cucumber,,Modified Condition / Decision Coverage,0.90 to 1.00,0.90 to 1.00,0.90 to 1.00
+Fixed Bid-5 Million to 10 Million,,,SQL Server,SQL Server,SQL Server,Cubes,Cubes,Cubes,,,Static-Management review,Dynamic-Structure Based-Statement Coverage or Line Coverage,,,Appium,,Multiple Condition Coverage,,,
+,,,Oracle,Oracle,Oracle,None,None,None,,,None,Dynamic-Structure Based-Equivalence Partitioning (EP) Condition Coverage or Predicate Coverage,,,None,,Parameter value coverage,,,
+,,,Microsoft Azure,Microsoft Azure,Microsoft Azure,,,,,,,Dynamic-Structure Based-Decision Table Testing Decision Coverage or Branch Coverage  ,,,,,Other Coverage Critieria,,,
+,,,Informatica,Informatica,Informatica,,,,,,,Dynamic-Structure Based-State Transition Diagrams Multiple Condition Coverage ,,,,,,,,
+,,,My SQL,My SQL,My SQL,,,,,,,Dynamic-Experienced Based-Exploratory Testing,,,,,,,,
+,,,SAP BW,SAP BW,SAP BW,,,,,,,Dynamic-Experienced Based-Fault Attack,,,,,,,,
+,,,HIVE,HIVE,HIVE,,,,,,,None,,,,,,,,
+,,,Abnitio,Abnitio,Abnitio,,,,,,,,,,,,,,,
+,,,Sybase,Sybase,Sybase,,,,,,,,,,,,,,,
+,,,Mainframe,Mainframe,Mainframe,,,,,,,,,,,,,,,
+,,,None,None,None,,,,,,,,,,,,,,,

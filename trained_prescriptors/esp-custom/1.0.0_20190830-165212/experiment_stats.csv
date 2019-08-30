@@ -1,0 +1,6 @@
+generation,checkpoint_id,max_score,min_score,mean_score,cid_min_score,cid_max_score
+1,esp-custom/1/20190830-1122,21.0,11.0,15.92,1_2,1_13
+2,esp-custom/2/20190830-1122,21.0,11.0,17.44,2_4,2_22
+3,esp-custom/3/20190830-1122,21.0,11.0,16.96,3_24,3_23
+4,esp-custom/4/20190830-1122,21.0,11.0,19.12,4_24,4_25
+5,esp-custom/5/20190830-1122,21.0,12.0,19.56,5_4,5_25

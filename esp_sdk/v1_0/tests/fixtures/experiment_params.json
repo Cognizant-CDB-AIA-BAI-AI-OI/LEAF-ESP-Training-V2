@@ -1,0 +1,39 @@
+{
+    "network": {
+        "inputs": [
+            {
+                "name": "OS",
+                "size": 5
+            },
+            {
+                "name": "Cellular",
+                "size": 2
+            }
+        ],
+        "nb_hidden_units": 10,
+        "use_bias": true,
+        "outputs": [
+            {
+                "action_id": 105,
+                "name": "change_button_color",
+                "size": 3
+            },
+            {
+                "name": "change_button_size",
+                "size": 4
+            }
+        ]
+    },
+    "evolution": {
+        "population_size": 20,
+        "remove_population_pct": 0.5,
+        "mutation_probability": 0.25,
+        "mutation_factor": 0.1
+    },
+    "LEAF": {
+        "esp_host": "a.host.that.doesnt.exist.com",
+        "esp_port": 42,
+        "experiment_id": "esp-sdk-unit-test",
+        "version": "1.0.0"
+    }
+}

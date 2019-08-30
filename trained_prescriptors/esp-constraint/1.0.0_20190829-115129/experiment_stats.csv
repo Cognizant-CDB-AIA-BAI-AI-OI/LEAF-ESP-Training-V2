@@ -1,0 +1,2 @@
+generation,checkpoint_id,max_score,min_score,mean_score,cid_min_score,cid_max_score
+1,esp-constraint/1/20190829-1151,10.0,10.0,10.0,1_1,1_10

@@ -1,0 +1,261 @@
+{
+    "evolution": {
+        "mutation_probability": 0.1,
+        "remove_population_pct": 0.8,
+        "mutation_factor": 0.1,
+        "parent_selection": "proportion",
+        "population_size": 25,
+        "mutation_type": "gaussian_noise_percentage",
+        "nb_elites": 5
+    },
+    "LEAF": {
+        "esp_host": "test.esp.evolution.ml",
+        "esp_port": 50051,
+        "representation": "NNWeights",
+        "experiment_id":"XDE",
+        "version": "0.0.1",
+        "persistence_dir": "trained_prescriptors/"
+    },
+    "network": {
+        "nb_hidden_units": 10,
+        "inputs": [
+            {
+                "values": [
+                    "Fixed Bid- < 100K",
+                    "Fixed Bid-100K to 250K",
+                    "Fixed Bid-250K to 500K",
+                    "Fixed Bid-500K to 1 Million",
+                    "Fixed Bid-1 million to 5 Million",
+                    "Fixed Bid-5 Million to 10 Million"
+                ],
+                "name": "Budget",
+                "size": 6
+            },
+            {
+                "values": [
+                    "Yes",
+                    "No"
+                ],
+                "name": "BRD - Functional",
+                "size": 2
+            },
+            {
+                "values": [
+                    "Yes",
+                    "No"
+                ],
+                "name": "STTM's - Technical",
+                "size": 2
+            },
+            {
+                "values": [
+                    "Legacy",
+                    "AWS Cloud",
+                    "DB2",
+                    "SQL Server 2014",
+                    "Teradata",
+                    "SQL Server",
+                    "Oracle",
+                    "Microsoft Azure",
+                    "Informatica",
+                    "My SQL",
+                    "SAP BW",
+                    "HIVE",
+                    "Abnitio",
+                    "Sybase",
+                    "Mainframe",
+                    "None"
+                ],
+                "name": "Datawarehouse 1",
+                "size": 16
+            },
+            {
+                "values": [
+                    "Legacy",
+                    "AWS Cloud",
+                    "DB2",
+                    "SQL Server 2014",
+                    "Teradata",
+                    "SQL Server",
+                    "Oracle",
+                    "Microsoft Azure",
+                    "Informatica",
+                    "My SQL",
+                    "SAP BW",
+                    "HIVE",
+                    "Abnitio",
+                    "Sybase",
+                    "Mainframe",
+                    "None"
+                ],
+                "name": "Datawarehouse 2",
+                "size": 16
+            },
+            {
+                "values": [
+                    "Legacy",
+                    "AWS Cloud",
+                    "DB2",
+                    "SQL Server 2014",
+                    "Teradata",
+                    "SQL Server",
+                    "Oracle",
+                    "Microsoft Azure",
+                    "Informatica",
+                    "My SQL",
+                    "SAP BW",
+                    "HIVE",
+                    "Abnitio",
+                    "Sybase",
+                    "Mainframe",
+                    "None"
+                ],
+                "name": "Datawarehouse 3",
+                "size": 16
+            },
+            {
+                "values": [
+                    "SAP EPM",
+                    "Tableau",
+                    "BO",
+                    "SAP BO",
+                    "ETL Reporting",
+                    "Cubes",
+                    "None"
+                ],
+                "name": "Data Visualization 1",
+                "size": 7
+            },
+            {
+                "values": [
+                    "SAP EPM",
+                    "Tableau",
+                    "BO",
+                    "SAP BO",
+                    "ETL Reporting",
+                    "Cubes",
+                    "None"
+                ],
+                "name": "Data Visualization 2",
+                "size": 7
+            },
+            {
+                "values": [
+                    "SAP EPM",
+                    "Tableau",
+                    "BO",
+                    "SAP BO",
+                    "ETL Reporting",
+                    "Cubes",
+                    "None"
+                ],
+                "name": "Data Visualization 3",
+                "size": 7
+            },
+            {
+                "values": [
+                    "0 to 6 Months",
+                    "6 to 12 Months",
+                    "12 to 24 Months"
+                ],
+                "name": "Project Duration",
+                "size": 3
+            }
+        ],
+        "use_bias": "True",
+        "activation_function": "tanh",
+        "outputs": [
+            {
+                "values": [
+                    "0 to 6 Months",
+                    "6 to 12 Months",
+                    "12 to 24 Months"
+                ],
+                "name": "Testing Schedule",
+                "size": 3
+            },
+            {
+                "values": [
+                    "Static-Walk through",
+                    "Static-Informal review",
+                    "Static-Technical review",
+                    "Static-Audit",
+                    "Static-Inspection",
+                    "Static-Management review",
+                    "None"
+                ],
+                "name": "Test Strategy & Design - Static",
+                "size": 7
+            },
+            {
+                "values": [
+                    "Dynamic-Spectification Based-Boundary Value Analysis",
+                    "Dynamic-Spectification Based-Equivealence Paritioning",
+                    "Dynamic-Spectification Based-Decision Table Testing",
+                    "Dynamic-Spectification Based-Static Transition Diagram",
+                    "Dynamic-Spectification Based-Use Case Testing",
+                    "Dynamic-Structure Based-Statement Coverage or Line Coverage",
+                    "Dynamic-Structure Based-Equivalence Partitioning (EP) Condition Coverage or Predicate Coverage",
+                    "Dynamic-Structure Based-Decision Table Testing Decision Coverage or Branch Coverage",
+                    "Dynamic-Structure Based-State Transition Diagrams Multiple Condition Coverage",
+                    "Dynamic-Experienced Based-Exploratory Testing",
+                    "Dynamic-Experienced Based-Fault Attack",
+                    "None"
+                ],
+                "name": "Test Strategy & Design - Dynamic",
+                "size": 12
+            },
+            {
+                "values": [
+                    "System Testing",
+                    "None"
+                ],
+                "name": "Functional Testing",
+                "size": 2
+            },
+            {
+                "values": [
+                    "System Integration Testing",
+                    "System Testing",
+                    "None"
+                ],
+                "name": "Manual Testing",
+                "size": 3
+            },
+            {
+                "values": [
+                    "Data Comparator",
+                    "Load Runner",
+                    "UFT",
+                    "Cucumber",
+                    "Appium",
+                    "None"
+                ],
+                "name": "Automation Testing",
+                "size": 6
+            },
+            {
+                "values": [
+                    "Exploratory Testing",
+                    "None"
+                ],
+                "name": "Agile testing",
+                "size": 2
+            },
+            {
+                "values": [
+                    "Basic Coverage-Function Coverage",
+                    "Basic Coverage-Statement Coverage",
+                    "Basic Coverage-Branch Coverage",
+                    "Basic Coverage-Condition Coverage",
+                    "Modified Condition / Decision Coverage",
+                    "Multiple Condition Coverage",
+                    "Parameter value coverage",
+                    "Other Coverage Critieria"
+                ],
+                "name": "Test Coverage",
+                "size": 8
+            }
+        ]
+    }
+}

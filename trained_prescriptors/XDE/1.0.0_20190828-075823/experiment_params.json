@@ -1,0 +1,62 @@
+{
+    "network": {
+        "inputs": [
+            {
+                "name": "Region",
+                "size": 2,
+                "values": [
+                    "America",
+                    "Asia"
+                ]
+            },
+            {
+                "name": "OS",
+                "size": 3,
+                "values": [
+                    "Windows",
+                    "Macos",
+                    "Linux"
+                ]
+            }
+        ],
+        "nb_hidden_units": 10,
+        "use_bias": true,
+        "activation_function": "tanh",
+        "outputs": [
+            {
+                "name": "page color",
+                "size": 2,
+                "values": [
+                    "White",
+                    "Grey"
+                ]
+            },
+            {
+                "name": "button color",
+                "size": 2,
+                "values": [
+                    "Red",
+                    "Blue"
+                ]
+            }
+        ]
+    },
+    "evolution": {
+        "nb_generations": 5,
+        "population_size": 25,
+        "nb_elites": 1,
+        "remove_population_pct": 0.8,
+        "mutation_probability": 0.5,
+        "mutation_factor": 0.5,
+        "initialization_distribution": "orthogonal",
+        "initialization_range": 1
+    },
+    "LEAF": {
+        "esp_host": "v1.esp.evolution.ml",
+        "esp_port": 50051,
+        "representation": "NNWeights",
+        "experiment_id": "XDE",
+        "version": "1.0.0",
+        "persistence_dir": "trained_prescriptors/"
+    }
+}

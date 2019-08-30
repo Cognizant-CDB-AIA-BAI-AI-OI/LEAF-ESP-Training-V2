@@ -1,0 +1,6 @@
+generation,checkpoint_id,max_score,min_score,mean_score,cid_min_score,cid_max_score
+1,esp-custom/1/20190828-0817,23.0,10.0,14.6,1_6,1_24
+2,esp-custom/2/20190828-0817,24.0,6.0,16.0,2_17,2_19
+3,esp-custom/3/20190828-0817,24.0,11.0,16.76,3_6,2_19
+4,esp-custom/4/20190828-0818,24.0,11.0,18.04,4_9,2_19
+5,esp-custom/5/20190828-0818,24.0,8.0,17.04,5_5,2_19

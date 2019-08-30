@@ -1,0 +1,20 @@
+[{
+	"Budget": "Fixed Bid-100K to 250K",
+	"BRD - Functional": "Yes",
+	"STTM's - Technical": "Yes",
+	"Datawarehouse 1": "Legacy",
+	"Datawarehouse 2": "SAP BW",
+	"Datawarehouse 3": "None",
+	"Data Visualization 1": "SAP EPM",
+	"Data Visualization 2": "None",
+	"Data Visualization 3": "None",
+	"Project Duration": "12 to 24 Months",
+	"Testing Schedule": "12 to 24 Months",
+	"Test Strategy & Design - Static": "None",
+	"Test Strategy & Design - Dynamic": "Dynamic-Spectification Based-Boundary Value Analysis",
+	"Functional Testing": "System Testing",
+	"Manual Testing": "System Integration Testing",
+	"Automation Testing": "Data Comparator",
+	"Agile testing": "None",
+	"Test Coverage": "Basic Coverage-Function Coverage"
+}]
