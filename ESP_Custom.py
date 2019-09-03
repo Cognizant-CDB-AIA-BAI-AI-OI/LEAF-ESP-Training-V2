@@ -66,17 +66,8 @@ POSSIBLE_VALUES_CSV = os.path.join(DATA_PATH, "possible_values.csv")
 # In[5]:
 
 
-#Evaluation samples: samples we want to use to evaluate a candidate
-
-EVALUATION_SAMPLES_CSV =  os.path.join(DATA_PATH, "splits/70-30/val_set_0.csv")
-
-
-# In[6]:
-
-
 PRESCRIPTOR_JSON = os.path.join(DATA_PATH, "prescriptor.json")
 PRESCRIPTOR_H5 = os.path.join(DATA_PATH, 'prescriptor.h5')
-PREDICTOR_H5 = os.path.join(DATA_PATH, "predictor.h5")
 
 
 # In[7]:
